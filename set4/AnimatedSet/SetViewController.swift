@@ -35,11 +35,11 @@ class SetViewController: UIViewController, UIDynamicAnimatorDelegate {
             gameView.buttonFrame = deckButton.frame
         }
     }
-    var finishedGame = false {
-        didSet {
-            
-        }
-    }
+//    var finishedGame = false {
+//        didSet {
+//
+//        }
+//    }
     
     private var dealDelayTime = 0.2
     
